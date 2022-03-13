@@ -1,0 +1,184 @@
+/* jangan diubah */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2E8DF;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+/* jangan diubah */
+
+/* header */
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: rgb(137,29,29);
+  /* background-color: rgba(137,29,29,0.8); */
+  color: #F2B33D;
+}
+.header-logo {
+  font-size: 38px;
+  float: left;
+  font-family: 'Cinzel', serif;
+  line-height: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header li{
+  float: left;
+  line-height: 65px;
+}
+li a{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  color: #F2B33D;
+}
+li a:hover {
+  background-color: rgba(137,29,29,0.9);
+  position: relative;
+  top: -5px;
+  box-shadow: 0px 5px #400D0D;
+  border: 1px solid #400D0D;
+  border-radius: 4px;
+}
+li a:active {
+  box-shadow: none;
+  position: relative;
+  top: 0;
+  border: none;
+}
+/* header */
+
+/* main/top */
+.main {
+  background-image: url(assets/bawah-reserve-cZb1qxe82WE-unsplash-desktop.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 70%;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+}
+.main h1 {
+  padding-top: 180px;
+  padding-bottom: 140px;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.7);
+}
+/* main/top */
+
+/* navigasi makanan */
+.cont-nav-section {
+  width: 100%;
+  position: sticky;
+  top: 60px;
+  z-index: 9;
+  background: rgb(137,29,29);
+  background: linear-gradient(180deg, rgba(137,29,29,1) 0%, rgba(137,29,29,1) 80%, rgba(137,29,29,0.7) 100%);
+  color: #F2B33D;
+}
+.nav-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cont-nav {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  line-height: 40px;
+
+}
+.cont-nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  color: #F2B33D;
+}
+.cont-nav a:hover {
+  background-color: rgb(137,29,29);
+  position: relative;
+  top: -5px;
+  box-shadow: 0px 5px #400D0D;
+  border: 1px solid #400D0D;
+  border-radius: 4px;
+}
+.cont-nav a:active {
+  box-shadow: none;
+  position: relative;
+  top: 0;
+  border: none;
+}
+/* navigasi makanan */
+
+/* body/content */
+.body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.content-item {
+  max-height: 400px;
+  height: 60vh;
+  border: 2px solid #F2B33D;
+  margin-top: 20px;
+  scroll-margin-top: 140px;
+  border-radius: 20px;
+}
+.content-item img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.odd {
+  float: left;
+  text-align: left;
+}
+.even {
+  float: right;
+  text-align: right;
+}
+.description {
+  width: 55%;
+  padding: 10px;
+  margin: 5px;
+}
+.description h2 {
+  font-family: 'Cinzel', serif;
+}
+/* body/content */
+
+/* team */
+/* team */
+
+/* footer */
+footer {
+  height: 140px;
+  background: rgb(137,29,29)
+}
+/* footer */
