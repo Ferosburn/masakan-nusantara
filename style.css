@@ -174,11 +174,44 @@ li a:active {
 /* body/content */
 
 /* team */
+.team-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  scroll-margin-top: 140px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+.team {
+  min-height: 350px;
+}
+.team-item {
+  width: 19%;
+  min-height: 300px;
+  float: left;
+  border: 2px solid #F2B33D;
+  border-radius: 20px;
+}
+.team-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.team-item h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
 /* team */
 
 /* footer */
 footer {
   height: 140px;
   background: rgb(137,29,29)
+}
+footer p {
+  line-height: 140px;
+  text-align: center;
+  color: #F2B33D;
 }
 /* footer */
