@@ -215,3 +215,39 @@ footer p {
   color: #F2B33D;
 }
 /* footer */
+@media screen and (max-width: 1000px) {
+  .team-item img {
+    width: 160px;
+    height: 160px;
+    float: left;
+  }
+  .team-item {
+    margin: 10px auto;
+    min-width: 500px;
+    min-height: auto;
+    height: 160px;
+    float: none;
+  }
+  .team-item h3 {
+    padding-left: 10px;
+    float: left;
+    line-height: 160px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .body {
+    margin: 0 20px;
+  }
+  .team-title, .content-item {
+    scroll-margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .odd, .even {
+    float: none;
+    text-align: center;
+  }
+}
