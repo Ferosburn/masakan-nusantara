@@ -46,6 +46,12 @@ header {
   line-height: 65px;
   padding-left: 20px;
   padding-right: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {color: rgb(137,29,29);}
+  to {color: #F2B33D;}
 }
 header li{
   float: left;
