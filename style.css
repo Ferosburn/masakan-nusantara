@@ -143,7 +143,7 @@ li a:active {
 /* navigasi makanan */
 
 /* body/content */
-.body {
+.content {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -221,7 +221,35 @@ footer p {
   color: #F2B33D;
 }
 /* footer */
-@media screen and (max-width: 1000px) {
+
+.go-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 11;
+}
+.go-up a {
+  background-color: rgb(137,29,29);
+  color: #F2B33D;
+  display: block;
+  padding: 5px;
+  border: 1px solid #400D0D;
+  border-radius: 5px;
+}
+.go-up a:hover{
+  position: relative;
+  top: -5px;
+  box-shadow: 0px 5px #400D0D;
+  border: 1px solid #400D0D;
+  border-radius: 4px;
+}
+.go-up a:active{
+  box-shadow: none;
+  position: relative;
+  top: 0;
+  border: none;
+}
+@media screen and (max-width: 1000px) and (min-width: 670px) {
   .team-item img {
     width: 160px;
     height: 160px;
@@ -229,20 +257,19 @@ footer p {
   }
   .team-item {
     margin: 10px auto;
-    min-width: 500px;
+    min-width: 100%;
     min-height: auto;
     height: 160px;
     float: none;
   }
   .team-item h3 {
-    padding-left: 10px;
     float: left;
     line-height: 160px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .body {
+  .content {
     margin: 0 20px;
   }
   .team-title, .content-item {
@@ -250,10 +277,78 @@ footer p {
   }
 }
 
-@media screen and (max-width: 400px) {
-
+@media screen and (max-width: 670px) {
+  a {
+    font-size: 14px;
+    font-weight: 550;
+  }
+  p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 550;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  .header-logo {
+    font-size: 27px;
+  }
+  .main {
+    background-image: url(assets/bawah-reserve-n-uaIgS2a0I-unsplash-tablet-phone.jpg);
+    font-size: 27px;
+    background-position: 40% 40%;
+  }
+  .content-item {
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    width: 85%;
+    max-height: none;
+    padding: 20px;
+    margin-top: 25px;
+  }
+  .content-item img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #F2B33D;
+  }
+  .description {
+    display: inline-block;
+    padding-left: none;
+    width: auto;
+    margin: none;
+  }
+  .description h2{
+    margin-bottom: 20px;
+  }
+  .description p{
+    text-align: justify;
+  }
   .odd, .even {
     float: none;
     text-align: center;
+  }
+  .team {
+    min-width: none;
+    width: 100%;
+    text-align: center;
+  }
+  .team-item {
+    float: none;
+    width: 100%;
+    min-height: 200px;
+    border: none;
+  }
+  .team-item img {
+    float: none;
+    width: 150px;
+    height: auto;
+    border: 2px solid #F2B33D;
+  }
+  .team-item h3 {
+    float: none;
   }
 }
